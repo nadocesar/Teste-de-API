@@ -1,0 +1,22 @@
+/* * {
+    width: 0;
+    height: 0;
+   box-sizing: border-box;
+    margin: auto;
+} */
+
+.animeDiv {
+    margin: 10px;
+}
+
+.cardDiv {
+    /* position: relative; */
+}
+
+.listAnime{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    justify-items: center;
+    margin-top: 15px;
+}
